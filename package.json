@@ -1,0 +1,15 @@
+{
+  "name": "comment-web",
+  "version": "1.0.0",
+  "description": "실행 방법",
+  "main": "index.js",
+  "scripts": {
+    "server:start": "node ./server/server.js",
+    "web:start": "cd web && npm start",
+    "web:build": "cd web && npm run build",
+    "web:test": "cd web && npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
