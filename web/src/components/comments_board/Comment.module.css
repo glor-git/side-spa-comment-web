@@ -1,0 +1,41 @@
+.comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    border-top: 1px solid #b7b7b7;
+    padding: 20px 10px;
+}
+
+.content {
+    width: 300px;
+    font-size: 14px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: hidden;
+}
+
+.infoWrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+    color: #3d3d3d;
+}
+
+.name {
+    width: 100px;
+    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: hidden;
+    text-align: end;
+}
+
+.line {
+    margin: 0 4px;
+}
+
+.date {
+    width: 110px;
+}
