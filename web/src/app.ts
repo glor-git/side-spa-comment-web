@@ -22,7 +22,7 @@ function pushState(route: string) {
 
 // 초기 페이지 로딩
 window.onload = function () {
-  navigateTo('/');
+  navigateTo(location.pathname);
 };
 
 // 브라우저(뒤로가기, 앞으로가기)
